@@ -1,5 +1,4 @@
 import XCTest
-import KochavaEngagementExtensioniOS
 
 class Tests: XCTestCase {
     
