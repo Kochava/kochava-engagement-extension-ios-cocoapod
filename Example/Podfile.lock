@@ -1,0 +1,16 @@
+PODS:
+  - KochavaEngagementExtensioniOS (0.1.0)
+
+DEPENDENCIES:
+  - KochavaEngagementExtensioniOS (from `../`)
+
+EXTERNAL SOURCES:
+  KochavaEngagementExtensioniOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KochavaEngagementExtensioniOS: 4f9e4955868f8f5f47cf80d5bae30efebd53e258
+
+PODFILE CHECKSUM: ff61d154a9c1f966c8a5196f6f2633e3b861e408
+
+COCOAPODS: 1.6.1

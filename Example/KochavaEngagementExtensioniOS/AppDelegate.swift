@@ -3,7 +3,7 @@
 //  KochavaEngagementExtensioniOS
 //
 //  Created by johnbushnell on 05/24/2019.
-//  Copyright (c) 2019 johnbushnell. All rights reserved.
+//  Copyright (c) 2019 Kochava. All rights reserved.
 //
 
 import UIKit

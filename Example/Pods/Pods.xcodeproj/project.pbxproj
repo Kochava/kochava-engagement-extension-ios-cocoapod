@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EF72538867221C901172029CA1429FF /* KochavaEngagementExtensioniOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A575785C439937704163FAA2C4194 /* KochavaEngagementExtensioniOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C6060AFA71D404E70AA29176E4FFD03 /* KochavaEngagementExtensioniOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 281B0B6DAF94A2FA119A4B4EE669DD62 /* KochavaEngagementExtensioniOS-dummy.m */; };
+		46A119BD2E8998A72996C4031A294E98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4F8F97B246CA935D651B957CBEF85CCA /* Pods-KochavaEngagementExtensioniOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 190FB0B6CDA1B692F3CC9859C1853703 /* Pods-KochavaEngagementExtensioniOS_Tests-dummy.m */; };
+		51E1A5AF4843D0597C13C4FD4EEFDA8C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7948F3FC33BBBEA22A227385D5E525 /* ReplaceMe.swift */; };
+		718845F4E763DFA68D8EE69144A09A4B /* Pods-KochavaEngagementExtensioniOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA96DF00B478569D4EA603DAB38F7E5 /* Pods-KochavaEngagementExtensioniOS_Example-dummy.m */; };
+		77FF47D33F8F4F8C361213635B65BB4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8952B7FBFA41953579CB7EC187C7BFA6 /* Pods-KochavaEngagementExtensioniOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD93327006388614DE93B62C241FA5A /* Pods-KochavaEngagementExtensioniOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A36FB8648ACB0C3545B439178060224 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FA4FB36CC51B955812FAD53537242445 /* Pods-KochavaEngagementExtensioniOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8880E182B3ABACC719BD2D4107104601 /* Pods-KochavaEngagementExtensioniOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27A0962A320A1E41F8D94E2D885AD245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40AF0BF2E67A09411F2B773146DE9A3F;
+			remoteInfo = "Pods-KochavaEngagementExtensioniOS_Example";
+		};
+		4C87277681A1C654B5F61580EB1C19E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27A6D5C41FCC4D957F2FB5F13F5DDDA1;
+			remoteInfo = KochavaEngagementExtensioniOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10125B8F993FE9F7F866D57F0E49A2FC /* Pods-KochavaEngagementExtensioniOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KochavaEngagementExtensioniOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		143A575785C439937704163FAA2C4194 /* KochavaEngagementExtensioniOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KochavaEngagementExtensioniOS-umbrella.h"; sourceTree = "<group>"; };
+		190FB0B6CDA1B692F3CC9859C1853703 /* Pods-KochavaEngagementExtensioniOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KochavaEngagementExtensioniOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		1B1F0A1EE771A6508C552234D7DD0759 /* KochavaEngagementExtensioniOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KochavaEngagementExtensioniOS.xcconfig; sourceTree = "<group>"; };
+		281B0B6DAF94A2FA119A4B4EE669DD62 /* KochavaEngagementExtensioniOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KochavaEngagementExtensioniOS-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		385927FEA915834769A67ADDD4586C32 /* Pods-KochavaEngagementExtensioniOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KochavaEngagementExtensioniOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B524C69A325D21DBCC6F0FEC8EDB12C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3E7E3DEAEC072D24E9A004B1A01A57BD /* Pods_KochavaEngagementExtensioniOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KochavaEngagementExtensioniOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431430D3DE43F556799A401379C0D7ED /* KochavaEngagementExtensioniOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KochavaEngagementExtensioniOS.modulemap; sourceTree = "<group>"; };
+		493A6C6D476618AA8A8803CEDC3B750A /* Pods-KochavaEngagementExtensioniOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KochavaEngagementExtensioniOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		54AF1CBF8DBE5D53199B532754128CD6 /* KochavaEngagementExtensioniOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KochavaEngagementExtensioniOS-Info.plist"; sourceTree = "<group>"; };
+		59A0F212F8B404F83863B10ABA463995 /* KochavaEngagementExtensioniOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KochavaEngagementExtensioniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BED021082A4BAC9430D2805A35E2401 /* Pods-KochavaEngagementExtensioniOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KochavaEngagementExtensioniOS_Example.modulemap"; sourceTree = "<group>"; };
+		64C51E9903BAB9A2BB1E76C3C40AA982 /* KochavaEngagementExtensioniOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KochavaEngagementExtensioniOS.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		6ECDA47F36C17E731D47828BB8D49FAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		78B4BD822F41D7742DA3FC57F053E20D /* Pods_KochavaEngagementExtensioniOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KochavaEngagementExtensioniOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8880E182B3ABACC719BD2D4107104601 /* Pods-KochavaEngagementExtensioniOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KochavaEngagementExtensioniOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		9A7948F3FC33BBBEA22A227385D5E525 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KochavaEngagementExtensioniOS/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7A2D017FFFE0AC35D608E2CAB8AA44C /* Pods-KochavaEngagementExtensioniOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KochavaEngagementExtensioniOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		BE7057A2B38C27BB4B1AC6D3DB17D560 /* Pods-KochavaEngagementExtensioniOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KochavaEngagementExtensioniOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB4A1022A73A800303C1A4153A431623 /* KochavaEngagementExtensioniOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KochavaEngagementExtensioniOS-prefix.pch"; sourceTree = "<group>"; };
+		DEA96DF00B478569D4EA603DAB38F7E5 /* Pods-KochavaEngagementExtensioniOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KochavaEngagementExtensioniOS_Example-dummy.m"; sourceTree = "<group>"; };
+		DF486038F04DCFBAD0CEDE8417589EB0 /* Pods-KochavaEngagementExtensioniOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KochavaEngagementExtensioniOS_Tests.modulemap"; sourceTree = "<group>"; };
+		E25FB2F6BB5F745AC461B9FDD597DC8E /* Pods-KochavaEngagementExtensioniOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KochavaEngagementExtensioniOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBD93327006388614DE93B62C241FA5A /* Pods-KochavaEngagementExtensioniOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KochavaEngagementExtensioniOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EC4D9255B80605AF60C0A340009F7EA6 /* Pods-KochavaEngagementExtensioniOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KochavaEngagementExtensioniOS_Example-Info.plist"; sourceTree = "<group>"; };
+		F0A0A2D56757E8E41FBE318852BCB2B2 /* Pods-KochavaEngagementExtensioniOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KochavaEngagementExtensioniOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FCABD8B1AC74E68407019C61BA4C0B61 /* Pods-KochavaEngagementExtensioniOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KochavaEngagementExtensioniOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FCB6D788973198956E7141C06823929C /* Pods-KochavaEngagementExtensioniOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KochavaEngagementExtensioniOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDD7873A5D375AAA24B66E0DD92901D6 /* Pods-KochavaEngagementExtensioniOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KochavaEngagementExtensioniOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA0E21CE51D1D2068E64BA299AE26C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A36FB8648ACB0C3545B439178060224 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E047CCC247FE1BD47034EC62ACDBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A119BD2E8998A72996C4031A294E98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC5F9495D8C4092516FAA47CEB3377A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FF47D33F8F4F8C361213635B65BB4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66D32A9C9A68CFC349BEBF9767C03502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59A0F212F8B404F83863B10ABA463995 /* KochavaEngagementExtensioniOS.framework */,
+				78B4BD822F41D7742DA3FC57F053E20D /* Pods_KochavaEngagementExtensioniOS_Example.framework */,
+				3E7E3DEAEC072D24E9A004B1A01A57BD /* Pods_KochavaEngagementExtensioniOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B9C589FEEA6A36C913F08B4B634B5C9 /* KochavaEngagementExtensioniOS */ = {
+			isa = PBXGroup;
+			children = (
+				9A7948F3FC33BBBEA22A227385D5E525 /* ReplaceMe.swift */,
+				975A966A23A0E2D13FD01054389D2F27 /* Pod */,
+				771EB08931209CA9071F72E567E107A0 /* Support Files */,
+			);
+			name = KochavaEngagementExtensioniOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		756125852A08D6B1C476F4B15ADE433D /* Pods-KochavaEngagementExtensioniOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF486038F04DCFBAD0CEDE8417589EB0 /* Pods-KochavaEngagementExtensioniOS_Tests.modulemap */,
+				385927FEA915834769A67ADDD4586C32 /* Pods-KochavaEngagementExtensioniOS_Tests-acknowledgements.markdown */,
+				BE7057A2B38C27BB4B1AC6D3DB17D560 /* Pods-KochavaEngagementExtensioniOS_Tests-acknowledgements.plist */,
+				190FB0B6CDA1B692F3CC9859C1853703 /* Pods-KochavaEngagementExtensioniOS_Tests-dummy.m */,
+				A7A2D017FFFE0AC35D608E2CAB8AA44C /* Pods-KochavaEngagementExtensioniOS_Tests-Info.plist */,
+				EBD93327006388614DE93B62C241FA5A /* Pods-KochavaEngagementExtensioniOS_Tests-umbrella.h */,
+				E25FB2F6BB5F745AC461B9FDD597DC8E /* Pods-KochavaEngagementExtensioniOS_Tests.debug.xcconfig */,
+				FDD7873A5D375AAA24B66E0DD92901D6 /* Pods-KochavaEngagementExtensioniOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-KochavaEngagementExtensioniOS_Tests";
+			path = "Target Support Files/Pods-KochavaEngagementExtensioniOS_Tests";
+			sourceTree = "<group>";
+		};
+		763AFA849EA23D3E197493BE5696D56D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C3881D9FA34DD9CC44607241E0B10DA /* Pods-KochavaEngagementExtensioniOS_Example */,
+				756125852A08D6B1C476F4B15ADE433D /* Pods-KochavaEngagementExtensioniOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		771EB08931209CA9071F72E567E107A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				431430D3DE43F556799A401379C0D7ED /* KochavaEngagementExtensioniOS.modulemap */,
+				1B1F0A1EE771A6508C552234D7DD0759 /* KochavaEngagementExtensioniOS.xcconfig */,
+				281B0B6DAF94A2FA119A4B4EE669DD62 /* KochavaEngagementExtensioniOS-dummy.m */,
+				54AF1CBF8DBE5D53199B532754128CD6 /* KochavaEngagementExtensioniOS-Info.plist */,
+				CB4A1022A73A800303C1A4153A431623 /* KochavaEngagementExtensioniOS-prefix.pch */,
+				143A575785C439937704163FAA2C4194 /* KochavaEngagementExtensioniOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KochavaEngagementExtensioniOS";
+			sourceTree = "<group>";
+		};
+		8C3881D9FA34DD9CC44607241E0B10DA /* Pods-KochavaEngagementExtensioniOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5BED021082A4BAC9430D2805A35E2401 /* Pods-KochavaEngagementExtensioniOS_Example.modulemap */,
+				FCB6D788973198956E7141C06823929C /* Pods-KochavaEngagementExtensioniOS_Example-acknowledgements.markdown */,
+				10125B8F993FE9F7F866D57F0E49A2FC /* Pods-KochavaEngagementExtensioniOS_Example-acknowledgements.plist */,
+				DEA96DF00B478569D4EA603DAB38F7E5 /* Pods-KochavaEngagementExtensioniOS_Example-dummy.m */,
+				493A6C6D476618AA8A8803CEDC3B750A /* Pods-KochavaEngagementExtensioniOS_Example-frameworks.sh */,
+				EC4D9255B80605AF60C0A340009F7EA6 /* Pods-KochavaEngagementExtensioniOS_Example-Info.plist */,
+				8880E182B3ABACC719BD2D4107104601 /* Pods-KochavaEngagementExtensioniOS_Example-umbrella.h */,
+				FCABD8B1AC74E68407019C61BA4C0B61 /* Pods-KochavaEngagementExtensioniOS_Example.debug.xcconfig */,
+				F0A0A2D56757E8E41FBE318852BCB2B2 /* Pods-KochavaEngagementExtensioniOS_Example.release.xcconfig */,
+			);
+			name = "Pods-KochavaEngagementExtensioniOS_Example";
+			path = "Target Support Files/Pods-KochavaEngagementExtensioniOS_Example";
+			sourceTree = "<group>";
+		};
+		975A966A23A0E2D13FD01054389D2F27 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				64C51E9903BAB9A2BB1E76C3C40AA982 /* KochavaEngagementExtensioniOS.podspec */,
+				3B524C69A325D21DBCC6F0FEC8EDB12C /* LICENSE */,
+				6ECDA47F36C17E731D47828BB8D49FAA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FF1E7D79FB1CE399EB90FD411E76CEA9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				66D32A9C9A68CFC349BEBF9767C03502 /* Products */,
+				763AFA849EA23D3E197493BE5696D56D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF1E7D79FB1CE399EB90FD411E76CEA9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B9C589FEEA6A36C913F08B4B634B5C9 /* KochavaEngagementExtensioniOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		003D2CE52390715836DAC542F96BB104 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF72538867221C901172029CA1429FF /* KochavaEngagementExtensioniOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFF378F14FB7D8E017C6DA8735BD921 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8952B7FBFA41953579CB7EC187C7BFA6 /* Pods-KochavaEngagementExtensioniOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BF9935F2836D2A6E62B7F00624A9A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4FB36CC51B955812FAD53537242445 /* Pods-KochavaEngagementExtensioniOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16771C85DA18E4E998472A3DAC3A64BA /* Pods-KochavaEngagementExtensioniOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED913F00DDA4DCE9EADB40C46870CD9 /* Build configuration list for PBXNativeTarget "Pods-KochavaEngagementExtensioniOS_Tests" */;
+			buildPhases = (
+				3BFF378F14FB7D8E017C6DA8735BD921 /* Headers */,
+				DEE8D60CBAB97186BE1FA40C212F44AC /* Sources */,
+				8BC5F9495D8C4092516FAA47CEB3377A /* Frameworks */,
+				00F4B10431F3798DE4ADBD2BC3A07CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BACFB1DF20E19D9D89DE58F7B1E742A /* PBXTargetDependency */,
+			);
+			name = "Pods-KochavaEngagementExtensioniOS_Tests";
+			productName = "Pods-KochavaEngagementExtensioniOS_Tests";
+			productReference = 3E7E3DEAEC072D24E9A004B1A01A57BD /* Pods_KochavaEngagementExtensioniOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27A6D5C41FCC4D957F2FB5F13F5DDDA1 /* KochavaEngagementExtensioniOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71A3322CC5DCCC0D3BD265E37E8834A /* Build configuration list for PBXNativeTarget "KochavaEngagementExtensioniOS" */;
+			buildPhases = (
+				003D2CE52390715836DAC542F96BB104 /* Headers */,
+				02E8C882D4AFA122B851953DAC0C6B72 /* Sources */,
+				5AA0E21CE51D1D2068E64BA299AE26C9 /* Frameworks */,
+				92230C9F43CB9B3DB20EBA6B24D8A6FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KochavaEngagementExtensioniOS;
+			productName = KochavaEngagementExtensioniOS;
+			productReference = 59A0F212F8B404F83863B10ABA463995 /* KochavaEngagementExtensioniOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40AF0BF2E67A09411F2B773146DE9A3F /* Pods-KochavaEngagementExtensioniOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F8C6F9088D4E38FF21C905758DDC35 /* Build configuration list for PBXNativeTarget "Pods-KochavaEngagementExtensioniOS_Example" */;
+			buildPhases = (
+				A1BF9935F2836D2A6E62B7F00624A9A0 /* Headers */,
+				F096DB5BF56D3AA41E407FD2BDDC1F1C /* Sources */,
+				61E047CCC247FE1BD47034EC62ACDBCA /* Frameworks */,
+				C1EAEB0E998DECF9D35750BDC2B976B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850341321381EAB4CDE6B6AA0B258334 /* PBXTargetDependency */,
+			);
+			name = "Pods-KochavaEngagementExtensioniOS_Example";
+			productName = "Pods-KochavaEngagementExtensioniOS_Example";
+			productReference = 78B4BD822F41D7742DA3FC57F053E20D /* Pods_KochavaEngagementExtensioniOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 66D32A9C9A68CFC349BEBF9767C03502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27A6D5C41FCC4D957F2FB5F13F5DDDA1 /* KochavaEngagementExtensioniOS */,
+				40AF0BF2E67A09411F2B773146DE9A3F /* Pods-KochavaEngagementExtensioniOS_Example */,
+				16771C85DA18E4E998472A3DAC3A64BA /* Pods-KochavaEngagementExtensioniOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00F4B10431F3798DE4ADBD2BC3A07CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92230C9F43CB9B3DB20EBA6B24D8A6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1EAEB0E998DECF9D35750BDC2B976B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E8C882D4AFA122B851953DAC0C6B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6060AFA71D404E70AA29176E4FFD03 /* KochavaEngagementExtensioniOS-dummy.m in Sources */,
+				51E1A5AF4843D0597C13C4FD4EEFDA8C /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE8D60CBAB97186BE1FA40C212F44AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8F97B246CA935D651B957CBEF85CCA /* Pods-KochavaEngagementExtensioniOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F096DB5BF56D3AA41E407FD2BDDC1F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718845F4E763DFA68D8EE69144A09A4B /* Pods-KochavaEngagementExtensioniOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BACFB1DF20E19D9D89DE58F7B1E742A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KochavaEngagementExtensioniOS_Example";
+			target = 40AF0BF2E67A09411F2B773146DE9A3F /* Pods-KochavaEngagementExtensioniOS_Example */;
+			targetProxy = 27A0962A320A1E41F8D94E2D885AD245 /* PBXContainerItemProxy */;
+		};
+		850341321381EAB4CDE6B6AA0B258334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KochavaEngagementExtensioniOS;
+			target = 27A6D5C41FCC4D957F2FB5F13F5DDDA1 /* KochavaEngagementExtensioniOS */;
+			targetProxy = 4C87277681A1C654B5F61580EB1C19E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05367B4504C1B001EFFD2F5EBC04A9A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A0A2D56757E8E41FBE318852BCB2B2 /* Pods-KochavaEngagementExtensioniOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KochavaEngagementExtensioniOS_Example/Pods-KochavaEngagementExtensioniOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KochavaEngagementExtensioniOS_Example/Pods-KochavaEngagementExtensioniOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		097696F01CCAC52B0F7E47E2A721BFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1F0A1EE771A6508C552234D7DD0759 /* KochavaEngagementExtensioniOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KochavaEngagementExtensioniOS/KochavaEngagementExtensioniOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KochavaEngagementExtensioniOS/KochavaEngagementExtensioniOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KochavaEngagementExtensioniOS/KochavaEngagementExtensioniOS.modulemap";
+				PRODUCT_MODULE_NAME = KochavaEngagementExtensioniOS;
+				PRODUCT_NAME = KochavaEngagementExtensioniOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65D1AF98D52B00DE14FFC53CE717E8D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1F0A1EE771A6508C552234D7DD0759 /* KochavaEngagementExtensioniOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KochavaEngagementExtensioniOS/KochavaEngagementExtensioniOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KochavaEngagementExtensioniOS/KochavaEngagementExtensioniOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KochavaEngagementExtensioniOS/KochavaEngagementExtensioniOS.modulemap";
+				PRODUCT_MODULE_NAME = KochavaEngagementExtensioniOS;
+				PRODUCT_NAME = KochavaEngagementExtensioniOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77661D7812AA5F61913164B1E868BAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25FB2F6BB5F745AC461B9FDD597DC8E /* Pods-KochavaEngagementExtensioniOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KochavaEngagementExtensioniOS_Tests/Pods-KochavaEngagementExtensioniOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KochavaEngagementExtensioniOS_Tests/Pods-KochavaEngagementExtensioniOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CB204D965984C0D7AB2D0B011808D75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCABD8B1AC74E68407019C61BA4C0B61 /* Pods-KochavaEngagementExtensioniOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KochavaEngagementExtensioniOS_Example/Pods-KochavaEngagementExtensioniOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KochavaEngagementExtensioniOS_Example/Pods-KochavaEngagementExtensioniOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF5C009F26EA8F64069848165F5A7190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD7873A5D375AAA24B66E0DD92901D6 /* Pods-KochavaEngagementExtensioniOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KochavaEngagementExtensioniOS_Tests/Pods-KochavaEngagementExtensioniOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KochavaEngagementExtensioniOS_Tests/Pods-KochavaEngagementExtensioniOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED913F00DDA4DCE9EADB40C46870CD9 /* Build configuration list for PBXNativeTarget "Pods-KochavaEngagementExtensioniOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77661D7812AA5F61913164B1E868BAF9 /* Debug */,
+				FF5C009F26EA8F64069848165F5A7190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F8C6F9088D4E38FF21C905758DDC35 /* Build configuration list for PBXNativeTarget "Pods-KochavaEngagementExtensioniOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB204D965984C0D7AB2D0B011808D75B /* Debug */,
+				05367B4504C1B001EFFD2F5EBC04A9A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71A3322CC5DCCC0D3BD265E37E8834A /* Build configuration list for PBXNativeTarget "KochavaEngagementExtensioniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097696F01CCAC52B0F7E47E2A721BFEB /* Debug */,
+				65D1AF98D52B00DE14FFC53CE717E8D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

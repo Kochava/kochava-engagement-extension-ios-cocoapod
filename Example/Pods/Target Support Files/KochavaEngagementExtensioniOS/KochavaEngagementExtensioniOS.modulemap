@@ -1,0 +1,6 @@
+framework module KochavaEngagementExtensioniOS {
+  umbrella header "KochavaEngagementExtensioniOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
