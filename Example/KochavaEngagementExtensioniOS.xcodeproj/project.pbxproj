@@ -54,7 +54,7 @@
 
 /* Begin PBXFileReference section */
 		2A0557F9F316B3D80A54F878 /* Pods-KochavaEngagementExtensioniOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KochavaEngagementExtensioniOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KochavaEngagementExtensioniOS_Tests/Pods-KochavaEngagementExtensioniOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		41136B35CB0556EEB4917072 /* KochavaEngagementExtensioniOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KochavaEngagementExtensioniOS.podspec; path = ../KochavaEngagementExtensioniOS.podspec; sourceTree = "<group>"; };
+		41136B35CB0556EEB4917072 /* KochavaEngagementExtensioniOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KochavaEngagementExtensioniOS.podspec; path = ../KochavaEngagementExtensioniOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		44AB6834512875306AED9AD1 /* Pods-KochavaEngagementExtensioniOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KochavaEngagementExtensioniOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KochavaEngagementExtensioniOS_Tests/Pods-KochavaEngagementExtensioniOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KochavaEngagementExtensioniOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KochavaEngagementExtensioniOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -212,8 +212,8 @@
 		F29400762298BB5D00081DF6 /* NotificationServiceExtension */ = {
 			isa = PBXGroup;
 			children = (
-				F29400772298BB5D00081DF6 /* NotificationService.swift */,
 				F29400792298BB5D00081DF6 /* Info.plist */,
+				F29400772298BB5D00081DF6 /* NotificationService.swift */,
 				F29400812298BD6100081DF6 /* NotificationServiceExtension-Bridging-Header.h */,
 			);
 			path = NotificationServiceExtension;

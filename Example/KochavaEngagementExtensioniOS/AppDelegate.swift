@@ -25,10 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
     {
-        // KVAEngagementExtensionProduct
-        KVAEngagementExtensionProduct.shared.register()
-        print("KVAEngagementExtensionProduct.shared.nameWithVersionString=\(KVAEngagementExtensionProduct.shared.nameWithVersionString)")
-        
         return true
     }
     
