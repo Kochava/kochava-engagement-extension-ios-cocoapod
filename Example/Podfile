@@ -8,4 +8,11 @@ target 'KochavaEngagementExtensioniOS_Example' do
 
     
   end
+  
+  target 'NotificationServiceExtension' do
+      inherit! :search_paths
+      pod 'KochavaEngagementExtensioniOS', :path => '../'
+      
+      
+  end
 end

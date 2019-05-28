@@ -15,6 +15,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A6587D5B70176B743F399310 /* Pods_NotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAECDCC5F5507333F7EFAC82 /* Pods_NotificationServiceExtension.framework */; };
+		F29400782298BB5D00081DF6 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29400772298BB5D00081DF6 /* NotificationService.swift */; };
+		F294007C2298BB5D00081DF6 /* NotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F29400752298BB5D00081DF6 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F29400862298C08500081DF6 /* libKochavaCoreiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F29400852298C08100081DF6 /* libKochavaCoreiOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +29,28 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = KochavaEngagementExtensioniOS;
 		};
+		F294007A2298BB5D00081DF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29400742298BB5D00081DF6;
+			remoteInfo = NotificationServiceExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F29400802298BB5D00081DF6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F294007C2298BB5D00081DF6 /* NotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2A0557F9F316B3D80A54F878 /* Pods-KochavaEngagementExtensioniOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KochavaEngagementExtensioniOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KochavaEngagementExtensioniOS_Tests/Pods-KochavaEngagementExtensioniOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,11 +68,19 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6C206F410946B0CAB4931B69 /* Pods_KochavaEngagementExtensioniOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KochavaEngagementExtensioniOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0C55217B9AEAEBAFE2420E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		83BA47A89D1C704C5952A3B2 /* Pods-NotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationServiceExtension/Pods-NotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		90B528B62D81151BA29A2CED /* Pods-KochavaEngagementExtensioniOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KochavaEngagementExtensioniOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KochavaEngagementExtensioniOS_Example/Pods-KochavaEngagementExtensioniOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AFE7FD038FBAF2A6D29109C1 /* Pods-KochavaEngagementExtensioniOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KochavaEngagementExtensioniOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KochavaEngagementExtensioniOS_Example/Pods-KochavaEngagementExtensioniOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B851A94ABE7E411A5DC8630C /* Pods_KochavaEngagementExtensioniOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KochavaEngagementExtensioniOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAECDCC5F5507333F7EFAC82 /* Pods_NotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E5F2C5340A251D2424EAA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E2AF1CD50362B3F82A8888E9 /* Pods-NotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationServiceExtension/Pods-NotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		F29400692298B50400081DF6 /* KochavaEngagementExtensioniOS_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KochavaEngagementExtensioniOS_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		F29400752298BB5D00081DF6 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29400772298BB5D00081DF6 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		F29400792298BB5D00081DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29400812298BD6100081DF6 /* NotificationServiceExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotificationServiceExtension-Bridging-Header.h"; sourceTree = "<group>"; };
+		F29400852298C08100081DF6 /* libKochavaCoreiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKochavaCoreiOS.a; path = Pods/KochavaTrackeriOS/KochavaTrackeriOS/Libraries/libKochavaCoreiOS.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,14 +100,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F29400722298BB5D00081DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29400862298C08500081DF6 /* libKochavaCoreiOS.a in Frameworks */,
+				A6587D5B70176B743F399310 /* Pods_NotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0A0BEA8B41C6812666EF46BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F29400852298C08100081DF6 /* libKochavaCoreiOS.a */,
 				B851A94ABE7E411A5DC8630C /* Pods_KochavaEngagementExtensioniOS_Example.framework */,
 				6C206F410946B0CAB4931B69 /* Pods_KochavaEngagementExtensioniOS_Tests.framework */,
+				BAECDCC5F5507333F7EFAC82 /* Pods_NotificationServiceExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,6 +130,8 @@
 				90B528B62D81151BA29A2CED /* Pods-KochavaEngagementExtensioniOS_Example.release.xcconfig */,
 				44AB6834512875306AED9AD1 /* Pods-KochavaEngagementExtensioniOS_Tests.debug.xcconfig */,
 				2A0557F9F316B3D80A54F878 /* Pods-KochavaEngagementExtensioniOS_Tests.release.xcconfig */,
+				E2AF1CD50362B3F82A8888E9 /* Pods-NotificationServiceExtension.debug.xcconfig */,
+				83BA47A89D1C704C5952A3B2 /* Pods-NotificationServiceExtension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -95,6 +141,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for KochavaEngagementExtensioniOS */,
+				F29400762298BB5D00081DF6 /* NotificationServiceExtension */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				23D4348068CBEE00E5428955 /* Pods */,
@@ -107,6 +154,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* KochavaEngagementExtensioniOS_Example.app */,
 				607FACE51AFB9204008FA782 /* KochavaEngagementExtensioniOS_Tests.xctest */,
+				F29400752298BB5D00081DF6 /* NotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,6 +209,16 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		F29400762298BB5D00081DF6 /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F29400772298BB5D00081DF6 /* NotificationService.swift */,
+				F29400792298BB5D00081DF6 /* Info.plist */,
+				F29400812298BD6100081DF6 /* NotificationServiceExtension-Bridging-Header.h */,
+			);
+			path = NotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,10 +230,12 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				F29400802298BB5D00081DF6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F294007B2298BB5D00081DF6 /* PBXTargetDependency */,
 			);
 			name = KochavaEngagementExtensioniOS_Example;
 			productName = KochavaEngagementExtensioniOS;
@@ -201,13 +261,31 @@
 			productReference = 607FACE51AFB9204008FA782 /* KochavaEngagementExtensioniOS_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F29400742298BB5D00081DF6 /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F294007F2298BB5D00081DF6 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				6D135D43FDE0CCE34CD723E2 /* [CP] Check Pods Manifest.lock */,
+				F29400712298BB5D00081DF6 /* Sources */,
+				F29400722298BB5D00081DF6 /* Frameworks */,
+				F29400732298BB5D00081DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationServiceExtension;
+			productName = NotificationServiceExtension;
+			productReference = F29400752298BB5D00081DF6 /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -221,6 +299,12 @@
 						DevelopmentTeam = S3Y2KVL7H7;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					F29400742298BB5D00081DF6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = S3Y2KVL7H7;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -240,6 +324,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* KochavaEngagementExtensioniOS_Example */,
 				607FACE41AFB9204008FA782 /* KochavaEngagementExtensioniOS_Tests */,
+				F29400742298BB5D00081DF6 /* NotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -262,9 +347,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F29400732298BB5D00081DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6D135D43FDE0CCE34CD723E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B10475748EF29AFE22DE6F45 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,6 +443,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F29400712298BB5D00081DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29400782298BB5D00081DF6 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -336,6 +458,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* KochavaEngagementExtensioniOS_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		F294007B2298BB5D00081DF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29400742298BB5D00081DF6 /* NotificationServiceExtension */;
+			targetProxy = F294007A2298BB5D00081DF6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -462,8 +589,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AFE7FD038FBAF2A6D29109C1 /* Pods-KochavaEngagementExtensioniOS_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = S3Y2KVL7H7;
 				INFOPLIST_FILE = KochavaEngagementExtensioniOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -481,8 +610,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90B528B62D81151BA29A2CED /* Pods-KochavaEngagementExtensioniOS_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = S3Y2KVL7H7;
 				INFOPLIST_FILE = KochavaEngagementExtensioniOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -537,6 +668,78 @@
 			};
 			name = Release;
 		};
+		F294007D2298BB5D00081DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2AF1CD50362B3F82A8888E9 /* Pods-NotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = S3Y2KVL7H7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/KochavaTrackeriOS/KochavaTrackeriOS/Libraries",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.KochavaEngagementExtensioniOS-Example.NotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotificationServiceExtension/NotificationServiceExtension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F294007E2298BB5D00081DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83BA47A89D1C704C5952A3B2 /* Pods-NotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3Y2KVL7H7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/KochavaTrackeriOS/KochavaTrackeriOS/Libraries",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.KochavaEngagementExtensioniOS-Example.NotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotificationServiceExtension/NotificationServiceExtension-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -563,6 +766,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F294007F2298BB5D00081DF6 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F294007D2298BB5D00081DF6 /* Debug */,
+				F294007E2298BB5D00081DF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
