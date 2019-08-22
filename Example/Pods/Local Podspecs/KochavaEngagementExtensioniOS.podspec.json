@@ -1,6 +1,6 @@
 {
   "name": "KochavaEngagementExtensioniOS",
-  "version": "0.1.0",
+  "version": "3.11.0",
   "summary": "The KochavaEngagementExtension module of the KochavaTracker iOS SDK.",
   "description": "The KochavaEngagementExtension iOS Module provides support for Engagement, such as push notifications (a.k.a. remote notifications), within app extensions.  This is applicable to Notification Service Extensions.",
   "homepage": "http://www.kochava.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Kochava/kochava-engagement-extension-ios-cocoapod.git",
-    "tag": "0.1.0"
+    "tag": "3.11.0"
   },
   "platforms": {
     "ios": "8.0"

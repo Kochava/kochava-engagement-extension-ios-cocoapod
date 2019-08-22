@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'KochavaEngagementExtensioniOS'
-s.version          = '0.1.0'
+s.version          = '3.11.0'
 s.summary          = 'The KochavaEngagementExtension module of the KochavaTracker iOS SDK.'
 
 # This description is used to generate tags and improve search results.

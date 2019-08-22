@@ -18,6 +18,7 @@
 
 
 #import "KVAAsForContextObjectProtocol.h"
+#import "KVAFromObjectProtocol.h"
 
 
 
@@ -38,7 +39,7 @@
  
  @copyright 2017 - 2019 Kochava, Inc.
  */
-@interface KVAProduct : NSObject <KVAAsForContextObjectProtocol>
+@interface KVAProduct : NSObject <KVAAsForContextObjectProtocol, KVAFromObjectProtocol>
 
 
 
@@ -114,6 +115,17 @@
 
 
 /*!
+ @property nameWithVersionAndWrapperString
+ 
+ @brief A string containing the name and the version.
+ 
+ @discussion The two are delimited by a space.
+ */
+@property (strong, nonatomic, nonnull, readonly) NSString *nameWithVersionAndWrapperString;
+
+
+
+/*!
  @property organizationNameString
  
  @brief A string containing the name of the organization representing the product.
@@ -143,6 +155,15 @@
  @brief A version string.
  */
 @property (strong, nonatomic, nullable, readonly) NSString *versionString;
+
+
+
+/*!
+ @property wrapperProduct
+ 
+ @brief An optional product which wraps this product.
+ */
+@property (strong, nonatomic, nullable, readwrite) KVAProduct *wrapperProduct NS_SWIFT_NAME(wrapperProduct);
 
 
 
