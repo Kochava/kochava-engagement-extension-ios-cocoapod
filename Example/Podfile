@@ -2,12 +2,6 @@ use_frameworks!
 
 target 'KochavaEngagementExtensioniOS_Example' do
   pod 'KochavaEngagementExtensioniOS', :path => '../'
-
-  target 'KochavaEngagementExtensioniOS_Tests' do
-    inherit! :search_paths
-
-    
-  end
   
   target 'NotificationServiceExtension' do
       inherit! :search_paths
