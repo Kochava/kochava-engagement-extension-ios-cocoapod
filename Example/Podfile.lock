@@ -1,7 +1,7 @@
 PODS:
-  - KochavaEngagementExtensioniOS (3.14.1):
-    - KochavaTrackeriOS (= 3.14.1)
-  - KochavaTrackeriOS (3.14.1)
+  - KochavaEngagementExtensioniOS (3.15.0):
+    - KochavaTrackeriOS (= 3.15.0)
+  - KochavaTrackeriOS (3.15.0)
 
 DEPENDENCIES:
   - KochavaEngagementExtensioniOS (from `../`)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KochavaEngagementExtensioniOS: e5526e76819ef3af5cd12c506292b911b60d6150
-  KochavaTrackeriOS: 3d43c49fbdff6f2724f912dff9309c6da49e91b4
+  KochavaEngagementExtensioniOS: ea87a40c08a64b8def86b690be49177f7d56d19a
+  KochavaTrackeriOS: f9a6cf080765a9805e0f6de0cd9f824f31ff98f2
 
 PODFILE CHECKSUM: 9691e2985ab31f3828243c1354b87645f3a1f515
 
