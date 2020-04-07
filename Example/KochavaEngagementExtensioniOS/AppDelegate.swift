@@ -23,10 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     
     
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
-        print("KVACoreProduct.shared.standardVersionInfoString = \(KVACoreProduct.shared.standardVersionInfoString)")
-        print("KVAEngagementExtensionProduct.shared.standardVersionInfoString = \(KVAEngagementExtensionProduct.shared.standardVersionInfoString)")
+        print("KVACoreProduct.shared = \(KVACoreProduct.shared.kva_asForContextObject(withContext: .log)!)")
+        print("KVAEngagementExtensionProduct.shared = \(KVAEngagementExtensionProduct.shared.kva_asForContextObject(withContext: .log)!)")
         
         return true
     }
