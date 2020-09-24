@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'KochavaEngagementExtensioniOS'
-s.version          = '3.17.0'
+s.version          = '4.0.0'
 s.summary          = 'The KochavaEngagementExtension module of the KochavaTracker iOS SDK.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ s.summary          = 'The KochavaEngagementExtension module of the KochavaTracke
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description  = <<-DESC
-The KochavaEngagementExtension iOS Module provides support for Engagement, such as push notifications (a.k.a. remote notifications), within app extensions.  This is applicable to Notification Service Extensions.
+The KochavaEngagementExtension module is an optional module within the Kochava SDK providing engagement support for app extensions.  This includes push notifications (a.k.a. remote notifications).
 DESC
 
 s.homepage         = 'http://www.kochava.com'
@@ -28,7 +28,7 @@ s.author       = { 'Kochava' => 'support@kochava.com' }
 s.source           = { :git => 'https://github.com/Kochava/kochava-engagement-extension-ios-cocoapod.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '10.3'
 
 s.source_files = 'KochavaEngagementExtensioniOS/Classes/**/*'
 
@@ -38,9 +38,9 @@ s.source_files = 'KochavaEngagementExtensioniOS/Classes/**/*'
 
 s.public_header_files = 'KochavaEngagementExtensioniOS/Classes/**/*.h'
 s.frameworks   = 'Foundation', 'UIKit', 'UserNotifications'
-s.dependency 'KochavaCoreiOS', '~> 3.16'
+s.dependency 'KochavaCoreiOS', '~> 4.0.0'
 
-s.platform     = :ios, '8.0'
+s.platform     = :ios, '10.3'
 s.vendored_library = 'KochavaEngagementExtensioniOS/Libraries/libKochavaEngagementExtensioniOS.a'
 s.preserve_path = 'KochavaEngagementExtensioniOS/Libraries/libKochavaEngagementExtensioniOS.a'
 s.library = 'KochavaEngagementExtensioniOS'
