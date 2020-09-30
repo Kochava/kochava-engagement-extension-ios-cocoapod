@@ -1,7 +1,7 @@
 # KochavaEngagementExtensioniOS
 
 [![Version](https://img.shields.io/cocoapods/v/KochavaEngagementExtensioniOS.svg?style=flat)](https://cocoapods.org/pods/KochavaEngagementExtensioniOS)
-[![Download](https://api.bintray.com/packages/kochava/ios/engagement_extension/images/download.svg)](https://bintray.com/kochava/ios/engagement_extension/_latestVersion)
+[![Download](https://api.bintray.com/packages/kochava/apple/engagement_extension/images/download.svg)](https://bintray.com/kochava/apple/engagement_extension/_latestVersion)
 [![License](https://img.shields.io/cocoapods/l/KochavaEngagementExtensioniOS.svg?style=flat)](https://cocoapods.org/pods/KochavaEngagementExtensioniOS)
 [![Platform](https://img.shields.io/cocoapods/p/KochavaEngagementExtensioniOS.svg?style=flat)](https://cocoapods.org/pods/KochavaEngagementExtensioniOS)
 
@@ -24,7 +24,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Dependencies
 
 * [KochavaCore](https://cocoapods.org/pods/KochavaCoreiOS)
-[![Version](https://img.shields.io/cocoapods/v/KochavaCoreiOS.svg?style=flat)](https://cocoapods.org/pods/KochavaCoreiOS) [ ![Download](https://api.bintray.com/packages/kochava/ios/core/images/download.svg) ](https://bintray.com/kochava/ios/core/_latestVersion)
+[![Version](https://img.shields.io/cocoapods/v/KochavaCoreiOS.svg?style=flat)](https://cocoapods.org/pods/KochavaCoreiOS) [ ![Download](https://api.bintray.com/packages/kochava/apple/core/images/download.svg) ](https://bintray.com/kochava/apple/core/_latestVersion)
 
 ## Installation
 

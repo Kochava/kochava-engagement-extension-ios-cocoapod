@@ -43,7 +43,12 @@ s.dependency 'KochavaCoreiOS', '~> 4.0.0'
 s.platform     = :ios, '10.3'
 s.vendored_library = 'KochavaEngagementExtensioniOS/Libraries/libKochavaEngagementExtensioniOS.a'
 s.preserve_path = 'KochavaEngagementExtensioniOS/Libraries/libKochavaEngagementExtensioniOS.a'
-s.library = 'KochavaEngagementExtensioniOS'
+# s.library = 'KochavaEngagementExtensioniOS'
 
 s.swift_versions = '5.0'
+
+# Xcode 12 Bug Fix:  https://github.com/CocoaPods/CocoaPods/issues/10065#issuecomment-694268918
+s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 end
