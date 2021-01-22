@@ -1,7 +1,7 @@
 PODS:
-  - KochavaCoreiOS (4.3.0)
-  - KochavaEngagementExtensioniOS (4.3.0):
-    - KochavaCoreiOS (~> 4.3.0)
+  - KochavaCoreiOS (4.3.1)
+  - KochavaEngagementExtensioniOS (4.3.1):
+    - KochavaCoreiOS (~> 4.3.1)
 
 DEPENDENCIES:
   - KochavaEngagementExtensioniOS (from `../`)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KochavaCoreiOS: e628956260499e64b9a7d3eda3a82cf68d09e51c
-  KochavaEngagementExtensioniOS: 22fa00316ce7309190a52de74d3f6b8c3b6ca517
+  KochavaCoreiOS: c16cf148c19c37bc1fc5f3d5ac8f6d0f68c1eaf4
+  KochavaEngagementExtensioniOS: 48497ec72828d34fdab7a12ddcaf71b5e7860350
 
 PODFILE CHECKSUM: 9691e2985ab31f3828243c1354b87645f3a1f515
 

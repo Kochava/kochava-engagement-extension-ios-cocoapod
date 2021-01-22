@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'KochavaEngagementExtensioniOS'
-s.version          = '4.3.0'
+s.version          = '4.3.1'
 s.summary          = 'The KochavaEngagementExtension module of the KochavaTracker iOS SDK.'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ s.source_files = 'KochavaEngagementExtensioniOS/Classes/**/*'
 
 s.public_header_files = 'KochavaEngagementExtensioniOS/Classes/**/*.h'
 s.frameworks   = 'Foundation', 'UIKit', 'UserNotifications'
-s.dependency 'KochavaCoreiOS', '~> 4.3.0'
+s.dependency 'KochavaCoreiOS', '~> 4.3.1'
 
 s.platform     = :ios, '10.3'
 s.vendored_library = 'KochavaEngagementExtensioniOS/Libraries/libKochavaEngagementExtensioniOS.a'
