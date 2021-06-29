@@ -13,10 +13,13 @@
 
 
 
+#pragma mark KochavaCore
 #import "KochavaCore.h"
 
-#import "KVAEngagementExtensionProduct.h"
+#pragma mark KochavaEngagementExtension
 #import "UNNotificationServiceExtension+KochavaEngagementExtension.h"
+
+#import "KVAEngagementExtensionProduct.h"
 
 
 
